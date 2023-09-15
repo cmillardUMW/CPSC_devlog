@@ -2,8 +2,8 @@
 ### A record of all the coding I do for my computer science class
 by date
 
-### Mastery Check 1
-9/11/23
+### Mastery Check 1 - 9/11/23
+Thank you for the feedback, I changed the data type of my last variable to be a float instead of an integer 
 ```
 import java.util.*;
 
@@ -26,8 +26,8 @@ public class Main {
 }
 ```
 
-### Week 2 Pairing Practice
-9/11/23
+### Week 2 Pairing Practice - 9/11/23
+not too challenging, I didn't get to the bonus challenges though
 ```
 import java.util.Scanner;
 
@@ -50,9 +50,8 @@ public class Main {
 }
 ```
 
-### Project 1 Phase 1 Plan
+### Project 1 Phase 1 Plan - 9/6/23
 I didn't really know how to plan for this project so I wrote the easier half of the code and tried to make since of how the Diffie-Hellman Key Exchange works 
-9/6/23
 ```
 import java.util.*;
 
@@ -77,8 +76,8 @@ public class Main {
 }
 ```
 
-### Week 1 Pairing Practice
-9/6/23 (I think?)
+### Week 1 Pairing Practice - 9/6/23 (I think?)
+I've never used java before but I think I got the hang of it pretty fast
 ```
 import java.util.*;
 
