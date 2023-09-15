@@ -1,5 +1,6 @@
 # CPSC_devlog
 A record of all the coding I do for my computer science class
+In order of most recent
 
 ### Week 1 Pairing Practice
 9/6/23 (I think?)
