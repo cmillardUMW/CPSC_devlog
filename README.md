@@ -2,6 +2,45 @@
 ### A record of all the coding I do for my computer science class
 by date
 
+### Pair Programming 3
+All the if/else statement formatting took me forever but the rest was easy
+```
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner ip = new Scanner(System.in);
+    int fScore = ip.nextInt();
+    int sScore = ip.nextInt();
+    int tScore = ip.nextInt();
+    int allScore = (fScore+sScore+tScore)/3;
+    String response;
+    if(allScore>=90){
+      response = "Excellent work!";  
+    } else{
+      if(allScore>=80){
+        response = "Great work!";
+    } else{
+      if(allScore>=70){
+        response = "Hang in there and work hard!";
+    } else{
+      if(allScore>=60){
+        response = "Passing, but marginal";
+    } else{
+      if(allScore>=0){
+        response = "Failing";
+    } else{
+      response = "Invalid Score";
+    }
+    }
+    }
+    }
+    }
+    System.out.print(response);
+  }
+}
+```
+
 ### Mastery Check 1 - 9/11/23
 Thank you for the feedback, I changed the data type of my last variable to be a float instead of an integer 
 ```
