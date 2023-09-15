@@ -1,7 +1,7 @@
 # CPSC_devlog
 A record of all the coding I do for my computer science class
 
-```
+
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
@@ -15,4 +15,4 @@ public class Main {
         System.out.println("The equivalent tempurature in Celsius is: " + Dc);
     }
 }
-```
+
