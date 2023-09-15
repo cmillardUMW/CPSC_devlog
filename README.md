@@ -1,11 +1,12 @@
 # CPSC_devlog
 A record of all the coding I do for my computer science class
 
-### Week 1 Pairing Activity
-
+### Week 1 Pairing Practice
+9/6/23 (I think?)
+```
 import java.util.*;
 public class Main {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
         System.out.println("Please enter a tempurature in Fahrenheit: ");
         double Df = stdin.nextDouble();
@@ -16,4 +17,4 @@ public class Main {
         System.out.println("The equivalent tempurature in Celsius is: " + Dc);
     }
 }
-
+```
