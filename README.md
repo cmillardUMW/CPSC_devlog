@@ -2,6 +2,30 @@
 ### A record of all the coding I do for my computer science class
 by date
 
+### Mastery Check 1
+9/11/23
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("I, Christian Millard, pledge to not lie, cheat, steal, or assist where assistance is not allowed");
+        Scanner input = new Scanner(System.in);
+        System.out.println("For 4 different friends, input a name and age for each:");
+        String name1 = input.next();
+        int age1 = input.nextInt();
+        String name2 = input.next();
+        int age2 = input.nextInt();
+        String name3 = input.next();
+        int age3 = input.nextInt();
+        String name4 = input.next();
+        int age4 = input.nextInt();
+        float ageA = (age1+age2+age3+age4)/4;
+        System.out.print("The average age of "+name1+", "+name2+", "+name3+", and "+name4+" is: "+ageA);
+    }
+}
+```
+
 ### Week 2 Pairing Practice
 9/11/23
 ```
@@ -28,6 +52,7 @@ public class Main {
 
 ### Project 1 Phase 1 Plan
 I didn't really know how to plan for this project so I wrote the easier half of the code and tried to make since of how the Diffie-Hellman Key Exchange works 
+9/6/23
 ```
 import java.util.*;
 
