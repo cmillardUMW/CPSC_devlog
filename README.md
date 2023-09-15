@@ -1,7 +1,7 @@
 # CPSC_devlog
 A record of all the coding I do for my computer science class
 
-###Week 1 Pairing Activity
+### Week 1 Pairing Activity
 
 
 import java.util.*;
