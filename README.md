@@ -26,7 +26,7 @@ public class Main {
 }
 ```
 
-### Week 2 Pairing Practice - 9/11/23
+### Week 2 Pairing Practice - 9/8/23
 not too challenging, I didn't get to the bonus challenges though
 ```
 import java.util.Scanner;
