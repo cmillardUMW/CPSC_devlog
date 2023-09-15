@@ -1,6 +1,6 @@
 # CPSC_devlog
 ### A record of all the coding I do for my computer science class
-In order of most recent
+by date
 
 ### Week 2 Pairing Practice
 9/11/23
