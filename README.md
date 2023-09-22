@@ -2,7 +2,34 @@
 ### A record of all the coding I do for my computer science class
 by date
 
-### Pair Programming 3
+### Pair Programming 4 - 9/22/23
+I initially put the firs input inside the loop and almost made a second while loop when I could've just read the first input outside the loop and made it reread it at the end of the loop.
+```
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter the quiz scores followed by a -1:");
+        int datacount = 0;
+        int total = 0;
+        int value = input.nextInt();
+        while (value != -1) {
+            total = total + value;
+            datacount += 1;
+            System.out.println("total:" + total);
+            System.out.println("value:" + value);
+            System.out.println("datacount:" + datacount);
+            value = input.nextInt();
+        }
+        float average = (total/datacount);
+        System.out.print("The average score is : "+average);
+    }
+
+}
+```
+
+### Pair Programming 3 - 9/15/23
 All the if/else statement formatting took me forever but the rest was easy
 ```
 import java.util.*;
